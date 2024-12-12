@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    min-height: 100vh;
+    font-size: 0.9rem;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.logo {
+    max-width: 10px;
+    height: auto;
+
+  }
+
+.container{
+    max-width: 350px;
+    padding: 1rem;
+
+}
+
+input {
+    text-align: center; 
+  }
+
+  .form-floating label {
+    text-align: center;
+    width: 100%;
+  }
+
+  .form-floating input{
+    width: 100%;
+    height: 100%;
+    background-color: #D9D9D9;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+  }
+
+  .form-floating input::placeholder{
+    color: grey;
+    text-align: center;
+  }
+
+  .form-control::placeholder {
+    text-align: center;
+  }
+
+  .form-floating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button {
+    border-radius: 40px;
+  }
+
+  .form-floating + .form-floating {
+    margin-top: 1rem; 
+}
+
+.final-text{
+    text-align: center;
+}
+
+.d-flex.justify-content-between.align-items-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-check input{
+ accent-color: grey;
+}
+
+.checkbox {
+    accent-color: grey;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #FF5733;
+  }
+  
+  a:link {
+    color: #000000; 
+  }
+  
+  a:visited {
+    color: #7D7D7D;
+  }
+
+  .h3{
+ font-size: 1.5rem;
+  }
